@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Header} from './Header/Header';
-import {Form} from './Form/Form';
-import {NewMovies} from './NewMovies/NewMovies';
+import {Header} from './components/Header/Header';
+import {Form} from './components/Form/Form';
+import {NewMovies} from './components/NewMovies/NewMovies';
 
 class App extends Component {
   render() {
