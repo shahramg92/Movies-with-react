@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header/Header';
-// import Form from './components/Form/Form';
+import Form from './components/Form/Form';
 // import NewMovies from './components/NewMovies/NewMovies';
 
 class Home extends Component {
@@ -8,8 +8,8 @@ class Home extends Component {
     return(
       <div className="container">
         <Header />
-        {/* <Form />
-        <NewMovies /> */}
+        <Form />
+        {/* <NewMovies /> */}
       </div>
     );
   }
