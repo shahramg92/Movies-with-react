@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {FormResults} from './FormResults';
+import FormResults from './FormResults';
 import search from './Search.svg';
 import './Form.css';
 

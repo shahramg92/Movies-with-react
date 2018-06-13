@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './FormResults.css';
 
-export class FormResults extends React.Component {
+class FormResults extends Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
@@ -34,3 +34,5 @@ export class FormResults extends React.Component {
     );
   }
 }
+
+export default FormResults;
