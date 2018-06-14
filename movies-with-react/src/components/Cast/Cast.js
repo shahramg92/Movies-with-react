@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './cast.css';
+import './Cast.css';
 
 class Cast extends Component {
   render() {
