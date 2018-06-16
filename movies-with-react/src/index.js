@@ -7,12 +7,12 @@ import './index.css';
 
 class App extends Component {
   render() {
-    console.log('Made by Shahram');
+    console.log('Made by Shahram Ghassemi - http://www.shahramghassemi.com/');
     return(
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Home} />
           <Route path="/movie/:id" component={Movie} />
+          <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
     );
