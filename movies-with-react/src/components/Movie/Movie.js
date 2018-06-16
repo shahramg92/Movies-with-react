@@ -1,8 +1,8 @@
-import React, { Compnent } from 'react';
+import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Form from '../Form/Form';
 import Cast from '../Cast/Cast';
-import './movie.css';
+import './Movie.css';
 
 class Movie extends Component {
   constructor(props) {

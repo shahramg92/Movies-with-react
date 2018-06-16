@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './home';
-// import Movie from './components/Movie/Movie';
+import Movie from './components/Movie/Movie';
 import './index.css';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route path="/" component={Home} />
-          {/* <Route path="/movie/:id" component={Movie} /> */}
+          <Route path="/movie/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
     );
