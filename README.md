@@ -3,3 +3,9 @@
 
 This is the main page, displaying the newest movie releases (as of June 17, 2018)
 <img src="screenshots/movieswithreact.jpg"/>
+
+How the search function works
+<img src="screenshots/search.jpg"/>
+
+Information displayed when you click on a movie
+<img src="screenshots/movie.jpg"/>
